@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.andforce.circleseekbar"
+    android:layout_width="match_parent"
+    android:background="#FF000000"
+    android:layout_height="match_parent" >
+
+    
+<!--      android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" -->
+   
+
+    <com.andforce.circleseekbar.view.CircularSeekBar
+        android:background="#FFFF0000"
+        android:id="@+id/mseekbar_01"
+        android:layout_width="1900dp"
+        android:layout_height="1900dp"
+        app:circle_color="#FFFFFFFF"
+        app:circle_progress_color="#FFFFFFFF"
+        app:circle_stroke_width="4"
+        app:end_angle="315"
+        app:start_angle="225" >
+    </com.andforce.circleseekbar.view.CircularSeekBar>
+<!-- 
+    <com.andforce.circleseekbar.view.CircularSeekBar
+        android:id="@+id/mseekbar_02"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_below="@id/mseekbar_01"
+        android:layout_marginTop="-200dp"
+        app:end_angle="315"
+        app:start_angle="225" >
+    </com.andforce.circleseekbar.view.CircularSeekBar>
+
+    <com.andforce.circleseekbar.view.CircularSeekBar
+        android:id="@+id/mseekbar_03"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_marginTop="-200dp"
+        android:layout_below="@id/mseekbar_02"
+        app:end_angle="315"
+        app:start_angle="225" >
+    </com.andforce.circleseekbar.view.CircularSeekBar>
+
+    <com.andforce.circleseekbar.view.CircularSeekBar
+        android:id="@+id/mseekbar_04"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_marginTop="-200dp"
+        android:layout_below="@id/mseekbar_03"
+        app:end_angle="315"
+        app:start_angle="225" >
+    </com.andforce.circleseekbar.view.CircularSeekBar>
+
+    <com.andforce.circleseekbar.view.CircularSeekBar
+        android:id="@+id/mseekbar_05"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_marginTop="-200dp"
+        android:layout_below="@id/mseekbar_04"
+        app:end_angle="315"
+        app:start_angle="225" >
+    </com.andforce.circleseekbar.view.CircularSeekBar>
+ -->
+<!-- 
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginTop="30dp" /> -->
+
+</RelativeLayout>
